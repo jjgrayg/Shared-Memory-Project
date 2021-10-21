@@ -12,3 +12,5 @@ This is a project to show off the producer-consumer problem. It is based on the 
   
  ## What it does
  The producer program stores two randomly generated ints into a shared memory and reports which ints were added and where. The consumer is then alerted that it can pull the data from the shared memory, it then consumes the items in the shared memory and reports what it consumed and from where. Finally, the producer reports that the values have indeed been consumed and loops, repeating another pair of ints 500 times.
+
+Example output screenshot: https://imgur.com/a/3rboTX4
