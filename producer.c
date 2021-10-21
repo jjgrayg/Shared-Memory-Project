@@ -1,6 +1,9 @@
-/* pshm_ucase_send.c
+/* Modified from: pshm_ucase_send.c
 
     Licensed under GNU General Public License v2 or later.
+
+    Jarod Graygo
+    producer.c
 */
 #include <string.h>
 #include <time.h>

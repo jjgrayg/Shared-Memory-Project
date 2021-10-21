@@ -1,6 +1,9 @@
-/* pshm_ucase_bounce.c
+/* Modified from: pshm_ucase_bounce.c
 
     Licensed under GNU General Public License v2 or later.
+
+    Jarod Graygo
+    consumer.c
 */
 #include <ctype.h>
 #include "shared_mem.h"

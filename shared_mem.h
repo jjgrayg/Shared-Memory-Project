@@ -1,3 +1,9 @@
+/*  Modified from original "pshm_ucase.h" to store only two integers 
+    
+    Jarod Graygo
+    shared_mem.h
+*/
+
 #include <sys/mman.h>
 #include <fcntl.h>
 #include <semaphore.h>
