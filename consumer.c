@@ -40,7 +40,7 @@ int main() {
     if (sem_init(&shmp->sem2, 1, 0) == -1)
         errExit("sem_init-sem2");
 
-    while(consumedCount < 50) {
+    while(consumedCount < 500) {
         /* Wait for 'sem1' to be posted by peer before touching
             shared memory. */
 
