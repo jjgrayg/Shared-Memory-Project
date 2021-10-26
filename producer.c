@@ -30,7 +30,7 @@ int main() {
     if (shmp == MAP_FAILED)
         errExit("mmap");
     
-    while(producedCount < 50){
+    while(producedCount < 500){
 
         /* Create data to be stored in shared memory object. */
 
